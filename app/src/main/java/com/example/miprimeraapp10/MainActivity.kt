@@ -80,7 +80,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(signalStrength: Int, modifier: Modifier = Modifier) {
     Text(
-        text = "Bluetooth Signal Strength: $signalStrength dB",
+        text = "Intensidad de señal Bluetood: $signalStrength dB",
+
         modifier = modifier
     )
 }
